@@ -1,0 +1,20 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "../dist",
+    "baseUrl": "./",
+    "module": "es2015",
+    "allowJs":true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    // "noEmit":true,
+    "types": []
+  },
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts",
+    "**/*.js",
+    "*/rafael.min.js"
+  ]
+}

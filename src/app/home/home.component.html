@@ -1,0 +1,30 @@
+<div class="main-container">
+	<span class="day-mode" (click)="changeColor()">O</span>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-3">
+				<ul class="coin-list">
+					<li (click)="buildGraph('KNC','Kyber Network')">
+						<h1 class="top-coin">KNC</h1>
+						<h3 class="coin-name">Kyber Network</h3>
+					</li>
+					<br/>
+					<li (click)="buildGraph('ZRX','0x Protocol')">
+						<h1 class="top-coin">ZRX</h1>
+						<h3 class="coin-name">0x Protocol</h3>
+					</li>
+					<br/>		
+					<li (click)="buildGraph('MAID','MaidSafe - SafeNet')">
+						<h1 class="top-coin">MAID</h1>
+						<h3 class="coin-name">MaidSafe - SafeNet</h3>
+					</li>
+				</ul>			
+			</div>
+			<div class="col-xs-9">
+				<h1 class="top-coin">{{graphLabel}}</h1>
+				<h3 class="coin-name">{{ticker}}</h3>
+				<app-coingraph></app-coingraph>
+			</div>
+		</div>
+	</div>
+</div>

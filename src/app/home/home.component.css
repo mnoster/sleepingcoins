@@ -1,0 +1,57 @@
+.main-container{
+	padding:0;
+	margin:0;
+	background-color:black;
+	text-align:center;
+	margin-top:auto;
+}
+.main-container .container-fluid{
+	padding-top:5em;
+	padding-bottom: 6em;
+}
+.top-coin{
+	font-family: 'Aldrich', sans-serif;
+	color:orange;
+
+}
+.coin-name{
+	color:#00c0ff;
+	font-family:"Avenir";
+}
+.coin-list{
+	list-style-type: none;
+	list-style: none;
+	text-align: left;
+}
+.coin-list li{
+    padding: 43px;
+    border: 2px solid red;
+    border-radius: 149px;
+    border-top-left-radius: 0;
+    margin-bottom: 13px;
+    border-bottom-right-radius: 0;
+    display: inline-block;
+    width: 250px;
+    text-align:center;
+}
+.coin-list li:hover{
+	background-color:white;
+	cursor:pointer;
+}
+.flex-container{
+	display: flex; /* or inline-flex */
+	align-items:center;
+}
+.day-mode{
+	position:absolute;
+	display:inline-block;
+	background:limegreen;
+	color:white;
+	text-align:center;
+	padding:9px 14px;
+	right:0;
+	border-bottom-left-radius: 5px;
+}
+.day-mode:hover{
+	cursor:pointer;
+}
